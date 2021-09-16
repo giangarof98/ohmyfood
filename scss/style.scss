@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 $primary: #9356DC;
 $secondary: #FF79DA;
 $tertiary: #99E2D0;
@@ -25,7 +26,6 @@ $tertiary: #99E2D0;
         left: 40%;
         width: 100px;
         height: 100px;
-
         position: fixed;
         
         &:after{
@@ -457,7 +457,6 @@ $tertiary: #99E2D0;
 }
 
 
-
 //Tablet
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -635,7 +634,7 @@ $tertiary: #99E2D0;
 
         .cards{
             display: grid;
-            grid-template-columns: repeat(2,2fr);
+            grid-template-columns: repeat(2, 2fr);
             justify-content: center;
             align-items: center;
             grid-gap: 20px;
@@ -1478,7 +1477,7 @@ $tertiary: #99E2D0;
 
 //Animation
 
-@keyframes lds-dual-ring {
+/*@keyframes lds-dual-ring {
     0% { transform: rotate(0deg) scale(1);
     }
 
@@ -1508,4 +1507,4 @@ $tertiary: #99E2D0;
     100%{
         transform: scale(1);
     }  
-}
+} */

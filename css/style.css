@@ -1218,33 +1218,36 @@
     margin: 0;
   }
 }
-@keyframes lds-dual-ring {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  50% {
-    transform: rotate(360deg) scale(1.5);
-  }
-  100% {
-    transform: rotate(0deg) scale(1);
-    opacity: 1;
-  }
+/*@keyframes lds-dual-ring {
+    0% { transform: rotate(0deg) scale(1);
+    }
+
+    50%{
+        transform: rotate(360deg) scale(1.5);
+    }
+
+    100% {
+      transform: rotate(0deg) scale(1);
+      opacity: 1;
+    }
 }
+
 @keyframes wrapper {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
+
 @keyframes plate-btns {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }  
+} */
 
 /*# sourceMappingURL=style.css.map */
