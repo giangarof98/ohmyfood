@@ -447,8 +447,7 @@ $tertiary: #99E2D0;
             height: 60px;
             border-radius: 50px;
             border: none;
-            background: grey linear-gradient(
-                0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
+            background: grey linear-gradient(0deg,rgba(147,86,220,.9),rgba(255,121,218,.9));
             color: #fff;
             font-size: 16px;
             box-shadow: 10px 9px 8px 0 #c2c2c2;
@@ -1480,14 +1479,12 @@ $tertiary: #99E2D0;
 //Animation
 
 @keyframes lds-dual-ring {
-    0% {
-      transform: rotate(0deg) scale(1);
-      
-    }
+    0% { transform: rotate(0deg) scale(1);
+    };
 
     50%{
         transform: rotate(360deg) scale(1.5);
-    }
+    };
 
     100% {
       transform: rotate(0deg) scale(1);
@@ -1496,10 +1493,10 @@ $tertiary: #99E2D0;
 }
 
 @keyframes wrapper {
-    from{
+    0%{
         opacity: 0;
     }
-    to{
+    100%{
         opacity: 1;
     }
 }
@@ -1510,11 +1507,5 @@ $tertiary: #99E2D0;
     }
     100%{
         transform: scale(1);
-    }
-    
+    }  
 }
-
-
-
-
-
